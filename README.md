@@ -1,3 +1,41 @@
+# Jefferson AI - Synthetic Voter Simulation
+
+Agentic simulation for silicon polling - creating synthetic voter personas for election modeling and opinion polling.
+
+## 🎯 Features
+
+- **Synthetic Personas**: Generate realistic voter profiles based on demographic data and survey responses
+- **Multi-LLM Support**: Powered by ZhipuAI, Google Gemini, and Anthropic (Claude)
+- **Interactive Polling**: Ask open-ended, multiple choice, or scale questions to synthetic voters
+- **News Context Integration**: Scrape and incorporate local news for context-aware responses
+- **Batch Simulations**: Run large-scale simulations across multiple precincts
+- **Fast & Scalable**: Built with Prefect for workflow orchestration and Supabase for data storage
+
+## 🛠️ Technology Stack
+
+- **Python 3.12+**: Core language
+- **FastAPI & Uvicorn**: API server
+- **Prefect**: Workflow orchestration
+- **Supabase**: Database and backend services
+- **Click**: CLI interface
+- **Pydantic**: Data validation
+- **ZhipuAI / Google / Anthropic**: LLM providers
+- **BeautifulSoup4**: Web scraping
+- **Pandas**: Data manipulation
+
+## 📦 Installation
+
+### Prerequisites
+
+- Python 3.12 or higher
+- [uv](https://github.com/astral-sh/uv) package manager
+- Supabase account (free tier works)
+- At least one LLM API key
+
+### Setup
+
+1. **Clone the repository**
+   ```bash
    git clone <your-repo-url>
    cd Jefferson_hackathon
    ```

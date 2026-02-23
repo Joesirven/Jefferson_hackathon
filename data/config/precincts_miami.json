@@ -1,0 +1,211 @@
+{
+  "precincts": [
+    {
+      "id": "MD-P01-Westchester",
+      "name": "Westchester",
+      "state": "FL",
+      "county": "Miami-Dade",
+      "neighborhood": "Westchester",
+      "description": "Hispanic majority, working-class and middle-class families",
+      "expected_voters": 1800,
+      "demographics": {
+        "age_distribution": {
+          "18-29": 0.2,
+          "30-39": 0.18,
+          "40-49": 0.12,
+          "50-64": 0.3,
+          "65+": 0.2
+        },
+        "race_distribution": {
+          "Hispanic": 0.75,
+          "White": 0.18,
+          "Black": 0.05,
+          "Asian": 0.01,
+          "Other": 0.01
+        },
+        "education_distribution": {
+          "No HS": 0.15,
+          "High school graduate": 0.25,
+          "2-year": 0.3,
+          "4-year": 0.25,
+          "Post-grad": 0.05
+        },
+        "party_distribution": {
+          "Strong Democrat": 0.35,
+          "Democrat": 0.3,
+          "Independent/Lean Democrat": 0.15,
+          "Independent/Lean Republican": 0.1,
+          "Republican": 0.07,
+          "Strong Republican": 0.03
+        },
+        "income_distribution": {
+          "<$50K": 0.25,
+          "$50K-$75K": 0.2,
+          "$75K-$100K": 0.2,
+          "$100K-$150K": 0.2,
+          "$150K-$200K": 0.1,
+          ">$200K": 0.05
+        },
+        "employment_status": {
+          "Employed full time": 0.55,
+          "Employed part time": 0.15,
+          "Self-employed": 0.12,
+          "Unemployed": 0.08,
+          "Retired": 0.08,
+          "Student": 0.02
+        },
+        "marital_status": {
+          "Married": 0.5,
+          "Never married": 0.3,
+          "Divorced/Separated": 0.12,
+          "Widowed": 0.08
+        },
+        "ideology_distribution": {
+          "Very Liberal": 0.15,
+          "Liberal": 0.3,
+          "Moderate": 0.35,
+          "Conservative": 0.15,
+          "Very Conservative": 0.05
+        }
+      }
+    },
+    {
+      "id": "MD-P02-CoralGables",
+      "name": "Coral Gables",
+      "state": "FL",
+      "county": "Miami-Dade",
+      "neighborhood": "Coral Gables",
+      "description": "Affluent, mixed demographics with historic charm, upscale neighborhood",
+      "expected_voters": 1500,
+      "demographics": {
+        "age_distribution": {
+          "18-29": 0.12,
+          "30-39": 0.15,
+          "40-49": 0.1,
+          "50-64": 0.38,
+          "65+": 0.25
+        },
+        "race_distribution": {
+          "White": 0.55,
+          "Hispanic": 0.38,
+          "Black": 0.04,
+          "Asian": 0.02,
+          "Other": 0.01
+        },
+        "education_distribution": {
+          "No HS": 0.03,
+          "High school graduate": 0.08,
+          "2-year": 0.15,
+          "4-year": 0.4,
+          "Post-grad": 0.34
+        },
+        "party_distribution": {
+          "Strong Democrat": 0.3,
+          "Democrat": 0.32,
+          "Independent/Lean Democrat": 0.18,
+          "Independent/Lean Republican": 0.1,
+          "Republican": 0.07,
+          "Strong Republican": 0.03
+        },
+        "income_distribution": {
+          "<$50K": 0.08,
+          "$50K-$75K": 0.1,
+          "$75K-$100K": 0.12,
+          "$100K-$150K": 0.25,
+          "$150K-$200K": 0.2,
+          ">$200K": 0.25
+        },
+        "employment_status": {
+          "Employed full time": 0.6,
+          "Employed part time": 0.1,
+          "Self-employed": 0.15,
+          "Unemployed": 0.03,
+          "Retired": 0.1,
+          "Student": 0.02
+        },
+        "marital_status": {
+          "Married": 0.55,
+          "Never married": 0.25,
+          "Divorced/Separated": 0.12,
+          "Widowed": 0.08
+        },
+        "ideology_distribution": {
+          "Very Liberal": 0.18,
+          "Liberal": 0.32,
+          "Moderate": 0.3,
+          "Conservative": 0.15,
+          "Very Conservative": 0.05
+        }
+      }
+    },
+    {
+      "id": "MD-P03-Hialeah",
+      "name": "Hialeah",
+      "state": "FL",
+      "county": "Miami-Dade",
+      "neighborhood": "Hialeah",
+      "description": "Predominantly Hispanic, working-class, one of largest Spanish-speaking cities in US",
+      "expected_voters": 2200,
+      "demographics": {
+        "age_distribution": {
+          "18-29": 0.22,
+          "30-39": 0.19,
+          "40-49": 0.13,
+          "50-64": 0.28,
+          "65+": 0.18
+        },
+        "race_distribution": {
+          "Hispanic": 0.95,
+          "White": 0.03,
+          "Black": 0.01,
+          "Asian": 0.005,
+          "Other": 0.005
+        },
+        "education_distribution": {
+          "No HS": 0.2,
+          "High school graduate": 0.35,
+          "2-year": 0.28,
+          "4-year": 0.15,
+          "Post-grad": 0.02
+        },
+        "party_distribution": {
+          "Strong Democrat": 0.4,
+          "Democrat": 0.35,
+          "Independent/Lean Democrat": 0.15,
+          "Independent/Lean Republican": 0.06,
+          "Republican": 0.03,
+          "Strong Republican": 0.01
+        },
+        "income_distribution": {
+          "<$50K": 0.35,
+          "$50K-$75K": 0.25,
+          "$75K-$100K": 0.18,
+          "$100K-$150K": 0.15,
+          "$150K-$200K": 0.05,
+          ">$200K": 0.02
+        },
+        "employment_status": {
+          "Employed full time": 0.52,
+          "Employed part time": 0.18,
+          "Self-employed": 0.1,
+          "Unemployed": 0.1,
+          "Retired": 0.08,
+          "Student": 0.02
+        },
+        "marital_status": {
+          "Married": 0.48,
+          "Never married": 0.32,
+          "Divorced/Separated": 0.14,
+          "Widowed": 0.06
+        },
+        "ideology_distribution": {
+          "Very Liberal": 0.2,
+          "Liberal": 0.38,
+          "Moderate": 0.28,
+          "Conservative": 0.1,
+          "Very Conservative": 0.04
+        }
+      }
+    }
+  ]
+}

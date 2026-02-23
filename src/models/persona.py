@@ -3,9 +3,28 @@
 
 from datetime import datetime
 from enum import Enum
-from typing import List, Optional
+from typing import Any, Dict, List, Optional
 
 from pydantic import BaseModel, Field
+
+
+class PrecinctConfig(BaseModel):
+    """Configuration for a voting precinct with census demographics."""
+
+    id: str  # Unique precinct identifier (e.g., "SF-P01-Mission")
+    name: str  # Human-readable name (e.g., "Mission District")
+    state: str  # State code (e.g., "CA", "FL")
+    county: str  # County name (e.g., "San Francisco", "Miami-Dade")
+    neighborhood: str  # Neighborhood name
+
+    # Census demographics for this precinct
+    demographics: Dict[str, Any] = Field(default_factory=dict)
+
+    # Expected number of voters in this precinct
+    expected_voters: int = 1000
+
+    # Additional metadata
+    description: Optional[str] = None
 
 
 class PoliticalParty(str, Enum):
@@ -79,17 +98,29 @@ class Persona(BaseModel):
 
     def to_prompt(self, news_context: str = "") -> str:
         """Convert persona to LLM prompt."""
-        return f"""You are a {self.age}-year-old {self.race.value} {self.gender} from {self.neighborhood or self.county}.
+        # Handle both enum and string types (due to use_enum_values = True)
+        race_val = self.race.value if hasattr(self.race, "value") else self.race
+        edu_val = (
+            self.education.value if hasattr(self.education, "value") else self.education
+        )
+        party_val = (
+            self.party_id.value if hasattr(self.party_id, "value") else self.party_id
+        )
+        ideology_val = (
+            self.ideology.value if hasattr(self.ideology, "value") else self.ideology
+        )
+
+        return f"""You are a {self.age}-year-old {race_val} {self.gender} from {self.neighborhood or self.county}.
 
 Personal details:
-- Education: {self.education.value}
+- Education: {edu_val}
 - Income: {self.income_bracket}
 - Employment: {self.employment_status}
 - Marital status: {self.marital_status}
 
 Political views:
-- Party: {self.party_id.value}
-- Ideology: {self.ideology.value}
+- Party: {party_val}
+- Ideology: {ideology_val}
 - Top issues you care about: {", ".join(self.top_issues[:3])}
 - You primarily get news from: {", ".join(self.news_sources[:3])}
 

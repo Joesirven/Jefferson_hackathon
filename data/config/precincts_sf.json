@@ -1,0 +1,280 @@
+{
+  "precincts": [
+    {
+      "id": "SF-P01-Mission",
+      "name": "Mission District",
+      "state": "CA",
+      "county": "San Francisco",
+      "neighborhood": "Mission",
+      "description": "Historically Latino neighborhood, now gentrifying with younger professionals and artists",
+      "expected_voters": 1500,
+      "demographics": {
+        "age_distribution": {
+          "18-29": 0.25,
+          "30-39": 0.2,
+          "40-49": 0.15,
+          "50-64": 0.25,
+          "65+": 0.15
+        },
+        "race_distribution": {
+          "White": 0.35,
+          "Hispanic": 0.4,
+          "Asian": 0.15,
+          "Black": 0.05,
+          "Other": 0.05
+        },
+        "education_distribution": {
+          "No HS": 0.1,
+          "High school graduate": 0.15,
+          "2-year": 0.25,
+          "4-year": 0.35,
+          "Post-grad": 0.15
+        },
+        "party_distribution": {
+          "Strong Democrat": 0.4,
+          "Democrat": 0.35,
+          "Independent/Lean Democrat": 0.15,
+          "Independent/Lean Republican": 0.05,
+          "Republican": 0.03,
+          "Strong Republican": 0.02
+        },
+        "income_distribution": {
+          "<$50K": 0.2,
+          "$50K-$75K": 0.15,
+          "$75K-$100K": 0.15,
+          "$100K-$150K": 0.25,
+          "$150K-$200K": 0.15,
+          ">$200K": 0.1
+        },
+        "employment_status": {
+          "Employed full time": 0.6,
+          "Employed part time": 0.15,
+          "Self-employed": 0.1,
+          "Unemployed": 0.08,
+          "Retired": 0.05,
+          "Student": 0.02
+        },
+        "marital_status": {
+          "Married": 0.4,
+          "Never married": 0.45,
+          "Divorced/Separated": 0.1,
+          "Widowed": 0.05
+        },
+        "ideology_distribution": {
+          "Very Liberal": 0.35,
+          "Liberal": 0.4,
+          "Moderate": 0.15,
+          "Conservative": 0.07,
+          "Very Conservative": 0.03
+        }
+      }
+    },
+    {
+      "id": "SF-P02-SoMa",
+      "name": "South of Market",
+      "state": "CA",
+      "county": "San Francisco",
+      "neighborhood": "SoMa",
+      "description": "Tech and startup hub, affluent young professionals and tech workers",
+      "expected_voters": 1200,
+      "demographics": {
+        "age_distribution": {
+          "18-29": 0.35,
+          "30-39": 0.25,
+          "40-49": 0.2,
+          "50-64": 0.15,
+          "65+": 0.05
+        },
+        "race_distribution": {
+          "White": 0.5,
+          "Asian": 0.3,
+          "Hispanic": 0.1,
+          "Black": 0.05,
+          "Other": 0.05
+        },
+        "education_distribution": {
+          "No HS": 0.02,
+          "High school graduate": 0.03,
+          "2-year": 0.1,
+          "4-year": 0.45,
+          "Post-grad": 0.4
+        },
+        "party_distribution": {
+          "Strong Democrat": 0.5,
+          "Democrat": 0.35,
+          "Independent/Lean Democrat": 0.12,
+          "Independent/Lean Republican": 0.02,
+          "Republican": 0.01,
+          "Strong Republican": 0.0
+        },
+        "income_distribution": {
+          "<$50K": 0.05,
+          "$50K-$75K": 0.05,
+          "$75K-$100K": 0.1,
+          "$100K-$150K": 0.3,
+          "$150K-$200K": 0.25,
+          ">$200K": 0.25
+        },
+        "employment_status": {
+          "Employed full time": 0.75,
+          "Employed part time": 0.08,
+          "Self-employed": 0.12,
+          "Unemployed": 0.03,
+          "Retired": 0.01,
+          "Student": 0.01
+        },
+        "marital_status": {
+          "Married": 0.35,
+          "Never married": 0.5,
+          "Divorced/Separated": 0.1,
+          "Widowed": 0.05
+        },
+        "ideology_distribution": {
+          "Very Liberal": 0.45,
+          "Liberal": 0.4,
+          "Moderate": 0.12,
+          "Conservative": 0.02,
+          "Very Conservative": 0.01
+        }
+      }
+    },
+    {
+      "id": "SF-P03-Richmond",
+      "name": "Richmond District",
+      "state": "CA",
+      "county": "San Francisco",
+      "neighborhood": "Richmond",
+      "description": "Working-class and middle-class families, significant Asian-American community",
+      "expected_voters": 1800,
+      "demographics": {
+        "age_distribution": {
+          "18-29": 0.15,
+          "30-39": 0.15,
+          "40-49": 0.1,
+          "50-64": 0.35,
+          "65+": 0.25
+        },
+        "race_distribution": {
+          "Asian": 0.5,
+          "White": 0.35,
+          "Hispanic": 0.08,
+          "Black": 0.05,
+          "Other": 0.02
+        },
+        "education_distribution": {
+          "No HS": 0.08,
+          "High school graduate": 0.15,
+          "2-year": 0.22,
+          "4-year": 0.4,
+          "Post-grad": 0.15
+        },
+        "party_distribution": {
+          "Strong Democrat": 0.25,
+          "Democrat": 0.35,
+          "Independent/Lean Democrat": 0.2,
+          "Independent/Lean Republican": 0.1,
+          "Republican": 0.07,
+          "Strong Republican": 0.03
+        },
+        "income_distribution": {
+          "<$50K": 0.15,
+          "$50K-$75K": 0.18,
+          "$75K-$100K": 0.2,
+          "$100K-$150K": 0.27,
+          "$150K-$200K": 0.12,
+          ">$200K": 0.08
+        },
+        "employment_status": {
+          "Employed full time": 0.55,
+          "Employed part time": 0.15,
+          "Self-employed": 0.1,
+          "Unemployed": 0.06,
+          "Retired": 0.12,
+          "Student": 0.02
+        },
+        "marital_status": {
+          "Married": 0.55,
+          "Never married": 0.25,
+          "Divorced/Separated": 0.12,
+          "Widowed": 0.08
+        },
+        "ideology_distribution": {
+          "Very Liberal": 0.2,
+          "Liberal": 0.35,
+          "Moderate": 0.3,
+          "Conservative": 0.1,
+          "Very Conservative": 0.05
+        }
+      }
+    },
+    {
+      "id": "SF-P04-Sunset",
+      "name": "Sunset District",
+      "state": "CA",
+      "county": "San Francisco",
+      "neighborhood": "Sunset",
+      "description": "Older homeowners, family-oriented, largest Chinese-American community in SF",
+      "expected_voters": 2000,
+      "demographics": {
+        "age_distribution": {
+          "18-29": 0.1,
+          "30-39": 0.12,
+          "40-49": 0.08,
+          "50-64": 0.35,
+          "65+": 0.35
+        },
+        "race_distribution": {
+          "Asian": 0.55,
+          "White": 0.4,
+          "Hispanic": 0.03,
+          "Black": 0.01,
+          "Other": 0.01
+        },
+        "education_distribution": {
+          "No HS": 0.05,
+          "High school graduate": 0.12,
+          "2-year": 0.2,
+          "4-year": 0.45,
+          "Post-grad": 0.18
+        },
+        "party_distribution": {
+          "Strong Democrat": 0.2,
+          "Democrat": 0.3,
+          "Independent/Lean Democrat": 0.25,
+          "Independent/Lean Republican": 0.12,
+          "Republican": 0.08,
+          "Strong Republican": 0.05
+        },
+        "income_distribution": {
+          "<$50K": 0.12,
+          "$50K-$75K": 0.15,
+          "$75K-$100K": 0.18,
+          "$100K-$150K": 0.3,
+          "$150K-$200K": 0.15,
+          ">$200K": 0.1
+        },
+        "employment_status": {
+          "Employed full time": 0.5,
+          "Employed part time": 0.12,
+          "Self-employed": 0.08,
+          "Unemployed": 0.05,
+          "Retired": 0.23,
+          "Student": 0.02
+        },
+        "marital_status": {
+          "Married": 0.6,
+          "Never married": 0.2,
+          "Divorced/Separated": 0.1,
+          "Widowed": 0.1
+        },
+        "ideology_distribution": {
+          "Very Liberal": 0.15,
+          "Liberal": 0.3,
+          "Moderate": 0.35,
+          "Conservative": 0.15,
+          "Very Conservative": 0.05
+        }
+      }
+    }
+  ]
+}
